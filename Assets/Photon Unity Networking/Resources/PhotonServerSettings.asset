@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3758f8f58fdef43803eb9be1df0608, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier: 
+  HostType: 1
+  Protocol: 0
+  ServerAddress: 
+  ServerPort: 5055
+  AppID: 2f4b873d-71b7-42c3-9867-3ed1fa9da4fc
+  PreferredRegion: 2
+  EnabledRegions: -1
+  JoinLobby: 1
+  EnableLobbyStatistics: 0
+  RpcList:
+  - Chat
+  - DestroyRpc
+  - InstantiateRpc
+  - OnAwakeRPC
+  - PickupItemInit
+  - PunPickup
+  - PunPickupSimple
+  - PunRespawn
+  - RequestForPickupTimes
+  - wasAttacked
+  - Attacked
+  - Taked
+  - gainFlag
+  - releasingFlag
+  - ColorRpc
+  - DoJump
+  - Flash
+  - Marco
+  - Polo
+  - TaggedPlayer
+  - UpdatePlayerInfo
+  - PutFlag
+  - EndRound
+  - CallEndRound
+  - EndGame
+  - NullParent
+  - TakeWeapon
+  - WeaponOut
+  - Destroying
+  - updateRound
+  - UpdateRound
+  - UpdateScore
+  - ChangeInt
+  - Destroyable
+  - IsHandled
+  - IsVirgin
+  - gainFlag2
+  - DestroyFlag
+  - DestroyFlag2
+  - A
+  - ResetFlag
+  - StateChange
+  - DestroyFort
+  - JetpackOut
+  - TakeJetpack
+  DisableAutoOpenWizard: 1
